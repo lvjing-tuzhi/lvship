@@ -42,17 +42,17 @@ export default {
 </script>
 
 <style>
-  #tab-bar-item {
-    height: 46px;
-    flex:1;
-    text-align: center;
-    font-size: 16px;
-    align-items: center;
-    padding: 2px 0px 2px 0px;
-    box-sizing: border-box;
-  }
-  #tab-bar-item img {
-    width: 20px;
-    height: 20px;
-  }
+#tab-bar-item {
+  height: 46px;
+  flex:1;
+  text-align: center;
+  font-size: 16px;
+  align-items: center;
+  padding: 2px 0px 2px 0px;
+  box-sizing: border-box;
+}
+#tab-bar-item img {
+  width: 20px;
+  height: 20px;
+}
 </style>

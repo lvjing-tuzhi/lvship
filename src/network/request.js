@@ -17,7 +17,7 @@ export function request(config) {
 
     //2.2响应拦截
     instance.interceptors.response.use(res => {
-        return res
+        return res.data
     }, error => {
         console.log('响应失败');
     })
